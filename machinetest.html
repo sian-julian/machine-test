@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .main{
+            padding: 90px 0px 0px 60px;
+        }
+
+        .up1{
+            width: 850px;
+            height: 390px;
+        }
+        .up1 > h1{
+            font-size:70px;
+        }
+        .up1 >p{
+            font-size: 23px;
+        }
+        
+        .b1{
+            background-color: black;
+            color: white;
+            width: 150px;
+            height: 50px;
+            border-radius: 50px;
+        }
+        .b1:hover{
+            background-color: white;
+            color: red;
+        }
+        .m1{
+            width: 770px;
+            margin-top: 130px;
+            display: flex;
+            
+        }
+        .up2{
+            background-color: whitesmoke;
+            width: 500px;
+            border-radius: 50px;
+        }
+        .up3{
+            background-color: whitesmoke;
+            width: 500px;
+            margin-left: 45px;
+            height: 240px;
+            border-radius: 50px;
+        }
+        .up2:hover{
+            background-color: lightblue;
+            cursor: pointer;
+        }
+        .up3:hover{
+            background-color: lightblue;
+            cursor: pointer;
+        }
+
+        .m2{
+            width: 790px;
+        }
+        .up4{
+            width: 770px;
+            background-color: whitesmoke;
+            display: flex;
+            border-radius: 50px;
+        }
+        .up4:hover{
+            background-color: lightblue;
+            cursor: pointer;
+        }
+        .content{
+            width: 390px;
+        }
+        .pic{
+            width: 350px;
+        }
+        .aot{
+            width: 290px;
+            height: 150px;
+        }
+        .ichigo{
+            position: absolute;
+            width: 140px;
+            border-radius: 70px;
+            left: 1120px;
+            top: 120px;
+        }
+        
+        .anime{
+            float: right;
+            width: 650px;
+            height: 900px;
+            background-image: url(/Images/texture.jpeg);
+            margin-top: 105px;
+            animation-name: example;
+            animation-duration: 10s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate-reverse;
+        }
+        @keyframes example{
+            0% {content: url(/Images/house.webp);}
+            25% {content: url(/Images/texture.jpeg);}
+            50% {content: url(/Images/c3.jpg);}
+            75% {content: url(/Images/c4.jpg);}
+            100% {content: url(/Images/c5.jpg);}
+        } 
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="res">
+            <div class="image">
+                <img class="ichigo" src="/Images/m1.jpg">
+            </div>
+            <div class="anime"> </div>
+        </div>
+
+        <div class="up1">
+            <h1>We Build your dream<br>house with our passion</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing<br>elit. Debitis eius sed suscipit dolorem esse fuga odit inventore porro?<br> Laudantium laboriosam id natus vero recusandae corporis.<br> Odit debitis eveniet ex earum?</p>
+            <button class="b1">Get started</button>
+        </div>
+        
+       
+
+        <div class="m1">
+            <div class="up2">
+                <h3 class="ps-4 pt-4">178K+</h3>
+                <p class="ps-4 pt-2 pe-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Eligendi architecto pariatur voluptas ea deleniti vero quisquam suscipit omnis culpa numquam?<br> Ducimus</p>
+            </div>
+
+            <div class="up3">
+                <h3 class="ps-4 pt-4">362</h3>
+                <p class="ps-4 pt-2 pe-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Eligendi architecto pariatur voluptas ea deleniti vero quisquam suscipit omnis culpa numquam?<br> Ducimus</p>
+            </div>
+        </div>
+
+        <div class="m2 mt-5">
+            <div class="up4">
+            
+                <div class="content">
+                    <h3 class="ps-4 pt-4">Title</h3>
+                     <p class="ps-4 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing<br> Dolores consequuntur ullam dolore cumque molestiae tempore placeat,<br> qui suscipit reiciendis repudiandae possimus velit modi</p>
+                </div>
+                <div class="pic">
+                    <img class="aot mt-4 ms-5" src="/Images/home.avif">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
